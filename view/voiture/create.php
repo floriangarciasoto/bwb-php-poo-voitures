@@ -1,4 +1,4 @@
-<form method="get" action="creerVoiture.php">
+<form method="get" action="../../controller/router.php">
   <fieldset>
     <legend>Mon formulaire :</legend>
     <p>
@@ -13,8 +13,10 @@
       <label for="cl_id">Couleur</label> :
       <input type="text" placeholder="Ex : Vert" name="couleur" id="cl_id" required/>
     </p>
+    <input type="hidden" name="action" value="created">
     <p>
       <input type="submit" value="Envoyer" />
     </p>
   </fieldset> 
 </form>
+<p><a href="/controller/router.php?action=readAll">Retour à la liste</a></p>
