@@ -1,8 +1,6 @@
 # App PHP POO Voitures
 
-Développement d'une application de gestion de voitures en POO vers une architecture MVC
-
-A suivre : développement de l'application en MVC
+Développement d'une application de gestion de voitures en POO avec une architecture MVC
 
 ## Initialisation
 
